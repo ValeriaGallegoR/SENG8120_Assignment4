@@ -36,4 +36,5 @@ describe("paint required calculator", () => {
     expect(result).toBe(45000);
   });
 
+  test.todo('should throw an error message when the number of copies is negative.')
 });
