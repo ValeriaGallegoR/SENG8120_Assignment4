@@ -45,6 +45,6 @@ describe("paint required calculator", () => {
   });
 
   test('should throw an error message when rectangle height is negative.', () => {
-    expect(() => paintRequiredCalculator(-50, 200, 2)).toThrow("Length, height, and copies must be positive values.");
+    expect(() => paintRequiredCalculator(50, -3, 10)).toThrow("Length, height, and copies must be positive values.");
   });
 });
