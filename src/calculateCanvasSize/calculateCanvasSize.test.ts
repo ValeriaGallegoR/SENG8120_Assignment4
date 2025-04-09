@@ -15,6 +15,10 @@ describe("calculateCanvasSize", () => {
     expect(() => calculateCanvasSize(10, -100)).toThrow("Width should be positive");
   });
 
-  test.todo("should returns correct result when length is zero");
+  test("should returns correct result when length is zero", () => {
+    const result = calculateCanvasSize(0, 100);
+    expect(result).toEqual(0);
+  });
+
   test.todo("should returns correct result when width is zero");
 });
