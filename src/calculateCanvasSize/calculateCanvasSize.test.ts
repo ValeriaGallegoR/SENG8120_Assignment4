@@ -2,5 +2,9 @@ import calculateCanvasSize from "./calculateCanvasSize";
 
 describe("calculateCanvasSize", () => {
   
-  test.todo("should returns correct result");
+  test("should returns correct result", () => {
+    const result = calculateCanvasSize(10, 100);
+    expect(result).toEqual(1000);
+  });
+
 });
