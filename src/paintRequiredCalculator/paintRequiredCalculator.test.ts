@@ -16,5 +16,6 @@ describe("paint required calculator", () => {
     expect(result).toBeCloseTo(1000);
   });
 
+  test('should return 0 if number of copies is 0');
 });
 
