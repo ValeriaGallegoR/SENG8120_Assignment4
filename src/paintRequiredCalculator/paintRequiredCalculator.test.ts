@@ -37,4 +37,6 @@ describe("paint required calculator", () => {
   });
 
   test.todo('should throw an error message when the number of copies is negative.')
+  test.todo('should throw an error message when rectangle length is negative.')
+  test.todo('should throw an error message when rectangle height is negative.')
 });
