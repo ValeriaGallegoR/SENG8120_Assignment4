@@ -1,6 +1,6 @@
 export default function calculateCanvasSize(
-  length: string,
-  width: string
+  length: number,
+  width: number
 ) {
-  return parseInt(length) * parseInt(width);
+  return length * width;
 }
