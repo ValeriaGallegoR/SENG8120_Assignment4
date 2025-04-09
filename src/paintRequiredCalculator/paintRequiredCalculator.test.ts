@@ -1,12 +1,12 @@
 import paintRequiredCalculator from "./paintRequiredCalculator";
 
 describe("paint required calculator", () => {
-  test("should return the calculation paint required for 2 copy", () => {
+  test("should return the correct calculation paint required for 2 copy", () => {
     const result = paintRequiredCalculator(50, 10, 2);
     expect(result).toBeCloseTo(1333.33, 2);
   });
   
-  test('should return the calculation paint required for 1 copy', () => {
+  test('should return the correct calculation paint required for 1 copy', () => {
     const result = paintRequiredCalculator(3, 2, 1);
     expect(result).toBe(8);
   });
@@ -16,6 +16,9 @@ describe("paint required calculator", () => {
     expect(result).toBeCloseTo(1000);
   });
 
-  test('should return 0 if number of copies is 0');
+  test('should return the correct calculation paint required if number of copies is 0', () => {
+    const result = paintRequiredCalculator(3, 2, 0);
+    expect(result).toBe(0);
+  });
 });
 
