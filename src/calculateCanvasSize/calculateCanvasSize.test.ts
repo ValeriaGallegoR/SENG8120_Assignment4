@@ -20,5 +20,8 @@ describe("calculateCanvasSize", () => {
     expect(result).toEqual(0);
   });
 
-  test.todo("should returns correct result when width is zero");
+  test("should returns correct result when width is zero", () => {
+    const result = calculateCanvasSize(10, 0);
+    expect(result).toEqual(0);
+  });
 });
