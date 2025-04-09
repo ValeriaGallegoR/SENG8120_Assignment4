@@ -1,6 +1,6 @@
 export default function paintRequiredCalculator(length: number, height: number, copies: number): number {
 
-  if (length <= 0 || height <= 0 || copies < 0) {
+  if (length < 0 || height < 0 || copies < 0) {
         throw new Error('Length, height, and copies must be positive values.');
       }
         
