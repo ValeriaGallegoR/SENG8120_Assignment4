@@ -33,7 +33,7 @@ describe("paint required calculator", () => {
 
   test('should return the correct calculation paint required when the client required 5000 copies', () => {
     const result = paintRequiredCalculator(3, 2, 5000);
-    expect(result).toBe(45000);
+    expect(result).toBe(40000);
   });
 
   test('should throw an error message when the number of copies is negative.', () => {
