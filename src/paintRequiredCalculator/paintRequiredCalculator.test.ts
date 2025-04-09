@@ -31,5 +31,9 @@ describe("paint required calculator", () => {
     expect(result).toBe(0);
   });
 
-  test.todo('should return the correct calculation paint required when the client required 5000');
+  test('should return the correct calculation paint required when the client required 5000 copies', () => {
+    const result = paintRequiredCalculator(3, 2, 5000);
+    expect(result).toBe(45000);
+  });
+
 });
