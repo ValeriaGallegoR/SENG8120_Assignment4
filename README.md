@@ -4,7 +4,29 @@ Version: Alpaca
 
 ## Purpose
 
-This repository houses the code we require for examples and assignments.
+This repository has the purpose of creating Test coverage for:
+
+- calculateCanvasDiagonal
+  
+- calculateCanvasPerimeter
+  
+- calculateCanvasSize
+  
+- calculatePaintCost
+  
+- calculateTotalCost
+  
+- convertAreaToSquareFeet
+  
+- estimatePaintingTime
+  
+- paintRequiredCalculator
+  
+- paintRequiredForMultipleCoats
+
+Focuses on solving the problem:
+
+Calculate how much paint will be needed for a given number of copies.
 
 ## Repository Usage
 
