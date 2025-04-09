@@ -21,7 +21,11 @@ describe("paint required calculator", () => {
     expect(result).toBe(0);
   });
 
-  test.todo('should return the correct calculation paint required when rectangle length is 0');
-  test.todo('should return the correct calculation paint required when rectangle height is 0');
-});
+  test('should return the correct calculation paint required when rectangle length is 0', () => {
+    const result = paintRequiredCalculator(0, 2, 100);
+    expect(result).toBe(0);
+  });
 
+  test.todo('should return the correct calculation paint required when rectangle height is 0');
+
+  });
