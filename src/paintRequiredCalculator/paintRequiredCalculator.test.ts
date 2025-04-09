@@ -11,6 +11,10 @@ describe("paint required calculator", () => {
     expect(result).toBe(8);
   });
 
-  test.todo('should handle non-integer rectangle dimensions and return the correct value');
+  test('should handle non-integer rectangle dimensions and return the correct value', () => {
+    const result = paintRequiredCalculator(2.5, 1.5, 200);
+    expect(result).toBeCloseTo(1000);
+  });
+
 });
 
