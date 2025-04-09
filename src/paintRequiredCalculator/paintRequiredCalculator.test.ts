@@ -36,7 +36,10 @@ describe("paint required calculator", () => {
     expect(result).toBe(45000);
   });
 
-  test.todo('should throw an error message when the number of copies is negative.')
+  test('should throw an error message when the number of copies is negative.', () => {
+    expect(() => paintRequiredCalculator(10, 10, -1000)).toThrow("Length, height, and copies must be positive values.");
+  });
+
   test.todo('should throw an error message when rectangle length is negative.')
   test.todo('should throw an error message when rectangle height is negative.')
 });
