@@ -10,4 +10,7 @@ describe("paint required calculator", () => {
     const result = paintRequiredCalculator(3, 2, 1);
     expect(result).toBe(8);
   });
+
+  test.todo('should handle non-integer rectangle dimensions and return the correct value');
 });
+
