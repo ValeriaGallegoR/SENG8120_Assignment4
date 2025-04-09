@@ -6,5 +6,9 @@ describe("paint required calculator", () => {
 
     expect(result).toEqual(5);
   });
-  test.todo('should return the calculation paint required for 1 copy');
+  
+  test('should return the calculation paint required for 1 copy', () => {
+    const result = paintRequiredCalculator(3, 2, 1);
+    expect(result).toBe(8);
+  });
 });
